@@ -9,6 +9,7 @@
     margin: 5px;
     padding: 10px 40px;
     cursor: pointer;
+    
 
 
 }
@@ -19,6 +20,16 @@
 }
 
 .consulted {
-    background-color: #d4edda;
-    border-left: 5px solid #28a745;
+  background: #003973;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    border-left: 10px solid #ffffff;
+    color: grey;
+    
   }
+  .consulted h4,
+.consulted h5 {
+  text-decoration: line-through;
+  color: gray;
+}

@@ -1,95 +1,120 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+# Clinic Appointment Project
 
-# Project-004 : Appointment App (RP-04)
+## **Live Demo**
+Check out the live version of the Product List App here: [Live Demo](https://myproduct-list.netlify.app/)
 
-## Description
+![Home Page video](./public/img/home.gif)
 
-Project aims to create a Hospital Appointment App.
+## Table of Contents
 
-## Problem Statement
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
+## About the Project
 
-## Project Skeleton
+The Clinic Appointment Project is a React-based application designed to manage doctor appointments efficiently. It allows users to view doctor details, book appointments via a modal interface, and manage the list of appointments dynamically.
+
+## Features
+
+- View a list of doctors with their specialization.
+- Click on a doctor card to open a modal for booking an appointment.
+- Add patient details and appointment date/time.
+- View all booked appointments in a dynamic list.
+- Delete appointments using a cancel icon.
+- Double-click on an appointment to mark it as "Consulted."
+
+## Technologies Used
+
+- **React**: For building the user interface.
+- **Bootstrap**: For styling and responsive design.
+- **React Icons**: For icons used in the project.
+- **CSS**: Custom styles for additional design tweaks.
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/clinic-appointment-project.git
+   cd clinic-appointment-project
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or if you're using Yarn
+   yarn install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   # or with Yarn
+   yarn start
+   ```
+
+4. Open the application in your browser at `http://localhost:3000`.
+
+## Usage
+
+1. **View Doctors**: The homepage displays a list of doctors with their names, specializations, and images.
+2. **Book Appointment**:
+   - Click on a doctor card to open the booking modal.
+   - Fill in the patient name and select the appointment date and time.
+   - Click "Submit" to save the appointment.
+3. **Manage Appointments**:
+   - View all appointments in the list below the doctors.
+   - Click the cancel icon (red X) to delete an appointment.
+   - Double-click an appointment to mark it as "Consulted."
+
+## Folder Structure
 
 ```
-004 - Appointment App (folder)
-|
-|----readme.md         # Given to the students (Definition of the project)
-SOLUTION
-├── public
-│     ├── img
-│     └── index.html
-├── src
-│    ├── components
-│    │       ├── AddModal.jsx
-│    │       ├── AppointmentList.jsx
-│    │       └── Doctors.jsx
-│    │
-│    ├── pages
-│    │       └── Home.jsx
-│    │
-│    ├── helpers
-│    │       └── Data.jsx
-│    │
-│    ├── App.js
-│    ├── App.css
-│    ├── index.js
-│    └── index.css
+clinic-appointment-project/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── AddModal.jsx
+│   │   ├── AppointmentList.jsx
+│   │   ├── Doctors.jsx
+│   │   ├── DoctorsCard.jsx
+│   ├── helpers/
+│   │   ├── data.js
+│   ├── CSS/
+│   │   ├── Home.css
+│   │   ├── DoctorsCard.css
+│   │   ├── AppointmentList.css
+│   ├── App.js
+│   ├── index.js
 ├── package.json
-└── yarn.lock
+├── README.md
 ```
 
-## Expected Outcome
+## Contributing
 
-![Project Snapshot](./appointment.gif)
+Contributions are welcome! If you'd like to improve this project:
 
-## Objective
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Open a pull request.
 
-Build a Hospital Appointment App using ReactJS.
+## License
 
-### At the end of the project, following topics are to be covered;
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-- HTML
-
-- CSS
-
-- JS
-
-- ReactJS
-
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML & CSS & JS & ReactJS.
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-
-- Step 1: Create React App using `npx create-react-app appointment-app`
-
-- Step 2 : Install `"react-icons"` package to your `package.json` for icons.
-
-- Step 3: Build Appointment App.
-
-- Step 4: You can use CSS frameworks like Bootstrap, React-Bootstrap etc.
-
-- Step 5: Push your application into your own public repo on Github
-
-- Step 6: Add project gif to your project and README.md file.
-
-## Notes
-
-- You can add additional functionalities to your app.
-
-## Demo
-
-[Appointment App Live](https://cw-appoinment-project.vercel.app/)
-
-## Additional Data
-
-- [Data.jsx](./helpers/data.jsx)
-- [images](./img)
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
