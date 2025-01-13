@@ -30,7 +30,7 @@ const AppointmentList = ({ appointment, onDelete, onConsulted }) => {
           </div>
         ))
       ) : (
-        <p>No appointments available</p>
+        <h3 className="border border-dark border-5 rounded p-2 mt-5">No Appointments</h3>
       )}
     </div>
   );

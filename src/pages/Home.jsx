@@ -48,7 +48,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1 className="text-white my-5">Clinic React</h1>
+      <h1 className="text-white my-1">Clinic React</h1>
       <h3 className="text-white my-4">Our Specialists</h3>
       <Doctors doctors={doctorData} onDoctorClick={handleOpenModal} />
       <AppointmentList
