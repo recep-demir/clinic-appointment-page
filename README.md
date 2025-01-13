@@ -1,7 +1,7 @@
-# Clinic Appointment Project
+# Clinic Appointment Page
 
 ## **Live Demo**
-Check out the live version of the Product List App here: [Live Demo](https://myproduct-list.netlify.app/)
+Check out the live version of the Product List App here: [Live Demo](https://clinik-appointment.netlify.app/)
 
 ![Home Page video](./public/img/home.gif)
 
