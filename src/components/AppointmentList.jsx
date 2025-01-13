@@ -13,10 +13,11 @@ const AppointmentList = ({appointment}) => {
               <div className='patientlist' key={item.id}>
                 <div>
                 <h4 className='text-danger'>{item.patient}</h4>
-                <h5>{item.doctor}</h5>
+                <h5 className='text-white'>{item.doctor}</h5>
                 </div>
-                <div>
-                <h4>{new Date(item.day).toLocaleDateString()}</h4>
+                <div className='mt-3'  >
+                
+                <h4 className='text-white'>{new Date(item.day).toLocaleDateString()}</h4>
 
                 </div>
                 <div className='mt-3'>

@@ -2,7 +2,10 @@
     border: 2px red solid;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(230, 229, 229);
+    border: 2px solid rgba(66, 63, 63, 0.327); 
+    background-color: rgba(45, 41, 41, 0.625);
+    border-radius: 16px;
+    /* box-shadow: 10px black; */
     margin: 5px;
     padding: 10px 40px;
     cursor: pointer;
@@ -14,3 +17,4 @@
     color: red;
   font-size: 2rem;
 }
+
