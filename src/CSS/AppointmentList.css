@@ -18,3 +18,7 @@
   font-size: 2rem;
 }
 
+.consulted {
+    background-color: #d4edda;
+    border-left: 5px solid #28a745;
+  }
