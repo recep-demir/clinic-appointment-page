@@ -18,7 +18,7 @@ Check out the live version of the Product List App here: [Live Demo](https://cli
 
 ## About the Project
 
-The Clinic Appointment Project is a React-based application designed to manage doctor appointments efficiently. It allows users to view doctor details, book appointments via a modal interface, and manage the list of appointments dynamically.
+The Clinic Appointment Project is React-based application designed to manage doctor appointments efficiently. It allows users to view doctor details, book appointments via a modal interface, and manage the list of appointments dynamically.
 
 ## Features
 
